@@ -14,7 +14,7 @@ import invariant from 'fbjs/lib/invariant';
  * row: A section header or a cell
  *
  */
-class FixedHeightListViewDataSource {
+export default class FixedHeightListViewDataSource {
 
   constructor(params) {
     this._dataSource = [];
@@ -374,5 +374,3 @@ class FixedHeightListViewDataSource {
     return result;
   }
 }
-
-module.exports = FixedHeightListViewDataSource;

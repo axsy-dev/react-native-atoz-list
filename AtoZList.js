@@ -57,7 +57,7 @@ export default class AtoZList extends Component {
     this.dataSource = dataSource;
   }
 
-  
+
   componentWillReceiveProps(nextProps) {
     if(this.props.data !== nextProps.data){
       this.setState({
@@ -66,7 +66,7 @@ export default class AtoZList extends Component {
       });
     }
   }
-  
+
 
   render() {
     this._alphabetInstance = this._alphabetInstance || (
@@ -122,4 +122,3 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
